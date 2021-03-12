@@ -88,7 +88,7 @@ public class CreatePost extends AppCompatActivity {
 
 
         try {
-            postData.put("postType","Question" );
+            postData.put("postType","Question");
             postData.put("postSubject", postSubject.getText().toString().trim());
             postData.put("postTitle", postTitle.getText().toString().trim());
             postData.put("postTags", postTags.getText().toString().trim());
