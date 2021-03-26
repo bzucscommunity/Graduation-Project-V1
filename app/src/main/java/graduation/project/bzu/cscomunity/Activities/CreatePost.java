@@ -85,6 +85,7 @@ public class CreatePost extends AppCompatActivity {
 
 
         try {
+            postData.put("userID","1170289");
             postData.put("postType","Question");
             postData.put("postSubject", postSubject.getText().toString().trim());
             postData.put("postTitle", postTitle.getText().toString().trim());
